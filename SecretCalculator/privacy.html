@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ja" data-active-lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dceaf2">
+  <title>プライバシーポリシー | 秘密の電卓</title>
+  <meta name="description" content="秘密の電卓（Calculator）のプライバシーポリシーです。">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>秘密の電卓</span></a>
+      <div class="nav-actions">
+        <a class="link-button" href="../index.html"><span class="inline" data-lang="ja">アプリ一覧</span><span class="inline" data-lang="en">Apps</span></a>
+        <a class="link-button" href="./index.html"><span class="inline" data-lang="ja">ホーム</span><span class="inline" data-lang="en">Home</span></a>
+        <button class="lang-button" type="button" data-set-lang="ja" aria-pressed="true">日本語</button>
+        <button class="lang-button" type="button" data-set-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="policy-wrap">
+    <article class="policy" data-lang="ja">
+      <h1>プライバシーポリシー</h1>
+      <p class="updated">最終更新日：2026年11月4日</p>
+      <p>本プライバシーポリシーは、秘密の電卓（アプリ上の表示名：Calculator。以下「本アプリ」）におけるユーザー情報の取り扱いについて説明するものです。</p>
+
+      <h2>取得・保存する情報</h2>
+      <p>本アプリは、機能提供のために以下の情報を取得または保存する場合があります。</p>
+      <ul>
+        <li>ユーザーが本アプリへ追加した写真、動画、メモおよびそれらのサムネイル</li>
+        <li>データの種類、作成・更新日時、元のファイル名、クラウド上の保存先などの管理情報</li>
+        <li>クラウド保存に必要なFirebase匿名認証のユーザーID、使用容量およびアップロード処理の情報</li>
+        <li>広告配信、不正防止、サービス維持に必要なIPアドレス、端末識別子、広告データ、アプリ操作情報、診断情報、クラッシュログ、パフォーマンスデータ等</li>
+      </ul>
+
+      <h2>暗証番号と端末内の暗号化</h2>
+      <p>設定した6桁の暗証番号そのものを、開発者またはクラウドへ送信することはありません。端末内には、暗証番号を確認するためのソルトとハッシュ、ならびにデータの暗号鍵をiOS Keychainへ保存します。</p>
+      <p>端末内のメモ、写真、動画およびサムネイルはAES-GCMで暗号化して保存します。暗証番号を忘れた場合に開発者が復旧することはできません。</p>
+
+      <h2>写真ライブラリ</h2>
+      <p>ユーザーが写真または動画の追加操作を行った場合、iOSの写真選択画面を通じて選択された項目だけを読み込みます。本アプリが写真ライブラリ全体を自動的に収集することはありません。</p>
+
+      <h2>クラウド保存</h2>
+      <p>本アプリは、データのバックアップ、同期、容量管理および復元機能のためにFirebase Authentication、Cloud Firestore、Firebase Storage、Cloud Functionsを使用します。これらのサービスでは、Google LLCが提供する基盤上で情報が処理されます。</p>
+      <p>写真、動画、サムネイルはFirebase Storageに、メモおよび管理情報はCloud Firestoreに保存されます。メモ本文は端末内と同じ暗号化済みデータとして送信されます。写真および動画は、表示・復元可能な元のファイル形式でクラウドに保存されます。通信は暗号化され、匿名認証のユーザーIDに基づくアクセス制御を行いますが、クラウド上の写真・動画がエンドツーエンド暗号化されるものではありません。</p>
+
+      <h2>広告</h2>
+      <p>本アプリは、広告表示のためにGoogle AdMobを使用します。Google Mobile Ads SDKは、広告配信、分析、不正防止、サービス改善などの目的で、IPアドレス、端末識別子、広告データ、アプリ操作情報、診断情報、クラッシュログ、パフォーマンスデータ等を収集する場合があります。</p>
+      <p>Googleによる情報の取り扱いについては、以下をご確認ください。</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy?hl=ja" rel="noopener">Google プライバシーポリシー</a></li>
+        <li><a href="https://developers.google.com/admob/ios/privacy/data-disclosure?hl=ja" rel="noopener">Google Mobile Ads SDKのデータ開示</a></li>
+        <li><a href="https://firebase.google.com/support/privacy?hl=ja" rel="noopener">Firebaseのプライバシーとセキュリティ</a></li>
+      </ul>
+
+      <h2>利用目的</h2>
+      <ul>
+        <li>電卓、保管庫、暗証番号によるロック機能の提供</li>
+        <li>写真、動画、メモの端末内保存、クラウド保存、同期、復元および削除</li>
+        <li>クラウド使用容量の計測と上限管理</li>
+        <li>広告の表示、不正利用の防止、障害対応およびアプリの品質維持・改善</li>
+        <li>お問い合わせへの対応</li>
+      </ul>
+
+      <h2>第三者提供</h2>
+      <p>開発者は、ユーザーの個人情報を販売しません。法令に基づく場合、生命・身体・財産の保護に必要な場合、または本アプリの提供に必要な範囲で委託先が処理する場合を除き、本人の同意なく個人情報を第三者へ提供しません。</p>
+
+      <h2>保存期間とデータの削除</h2>
+      <p>情報は、本アプリの機能提供、サービス維持、法令遵守、不正防止に必要な期間保存します。ユーザーはアプリ内で個別の項目を削除でき、設定画面の「保管庫を空にする」から保存したメモ、写真、動画をまとめて削除できます。クラウドへ送信済みの項目も、アプリからの削除処理にあわせて削除されます。</p>
+      <p>削除できない場合や、Firebase匿名認証の識別子を含む関連データの削除を希望する場合は、下記のお問い合わせ先までご連絡ください。システムのバックアップや法令上保存が必要な記録には、一定期間残ることがあります。</p>
+
+      <h2>安全管理</h2>
+      <p>本アプリは、端末内データの暗号化、通信の暗号化、Firebaseの認証・アクセス制御などを利用して情報の保護に努めます。ただし、端末、インターネット通信またはクラウド保存の完全な安全性を保証するものではありません。重要な元データは別途バックアップしてください。</p>
+
+      <h2>子どものプライバシー</h2>
+      <p>本アプリは、13歳未満の子どもを主な対象としたものではありません。13歳未満の方が利用する場合は、保護者の同意と管理のもとで利用してください。</p>
+
+      <h2>本ポリシーの変更</h2>
+      <p>本プライバシーポリシーは、法令や本アプリの機能変更等に応じて改定する場合があります。変更後の内容は本ページに掲載し、更新日を変更します。</p>
+
+      <h2>お問い合わせ</h2>
+      <p>本ポリシーまたはデータの取り扱いに関するお問い合わせは、以下までお願いいたします。</p>
+      <p class="note"><a href="mailto:syn.18ap@gmail.com">syn.18ap@gmail.com</a></p>
+    </article>
+
+    <article class="policy" data-lang="en">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: November 4, 2026</p>
+      <p>This Privacy Policy explains how Secret Calculator (displayed on your device as “Calculator,” referred to below as “the app”) handles information.</p>
+
+      <h2>Information collected or stored</h2>
+      <p>The app may collect or store the following information to provide its features:</p>
+      <ul>
+        <li>Photos, videos, notes, and thumbnails that you add to the app</li>
+        <li>Management data such as item type, creation and update dates, original file name, and cloud storage path</li>
+        <li>A Firebase anonymous authentication user ID, storage usage, and upload processing information needed for cloud storage</li>
+        <li>IP address, device identifiers, advertising data, app interaction data, diagnostics, crash logs, and performance data needed for advertising, fraud prevention, and service operation</li>
+      </ul>
+
+      <h2>PIN and on-device encryption</h2>
+      <p>Your six-digit PIN is not sent to the developer or the cloud. The app stores a salt and hash used to verify the PIN, together with the data encryption key, in iOS Keychain.</p>
+      <p>Notes, photos, videos, and thumbnails stored on the device are encrypted with AES-GCM. The developer cannot recover your vault if you forget the PIN.</p>
+
+      <h2>Photo library</h2>
+      <p>When you choose to add a photo or video, the app reads only the items you select through the iOS photo picker. The app does not automatically collect your entire photo library.</p>
+
+      <h2>Cloud storage</h2>
+      <p>The app uses Firebase Authentication, Cloud Firestore, Firebase Storage, and Cloud Functions for backup, synchronization, storage quota management, and restoration. Information is processed on infrastructure provided by Google LLC.</p>
+      <p>Photos, videos, and thumbnails are stored in Firebase Storage. Notes and management data are stored in Cloud Firestore. Note text is uploaded in the same encrypted form used on the device. Photos and videos are stored in their original, viewable file formats so they can be restored. Communications are encrypted and access is controlled using your anonymous authentication user ID, but cloud photos and videos are not end-to-end encrypted.</p>
+
+      <h2>Advertising</h2>
+      <p>The app uses Google AdMob to display ads. Google Mobile Ads SDK may collect information such as IP address, device identifiers, advertising data, app interaction data, diagnostics, crash logs, and performance data for advertising, analytics, fraud prevention, and service improvement.</p>
+      <p>For more information about Google's data practices, please review:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a></li>
+        <li><a href="https://developers.google.com/admob/ios/privacy/data-disclosure" rel="noopener">Google Mobile Ads SDK data disclosure</a></li>
+        <li><a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase Privacy and Security</a></li>
+      </ul>
+
+      <h2>Purposes of use</h2>
+      <ul>
+        <li>Providing calculator, vault, and PIN lock features</li>
+        <li>Saving, synchronizing, restoring, and deleting photos, videos, and notes on the device and in the cloud</li>
+        <li>Measuring cloud storage usage and enforcing storage limits</li>
+        <li>Displaying ads, preventing misuse, resolving issues, and maintaining or improving app quality</li>
+        <li>Responding to support requests</li>
+      </ul>
+
+      <h2>Sharing with third parties</h2>
+      <p>The developer does not sell your personal information. Information is not shared with third parties without your consent except when required by law, necessary to protect life, safety, or property, or processed by service providers as needed to operate the app.</p>
+
+      <h2>Retention and deletion</h2>
+      <p>Information is retained as needed to provide the app, operate the service, comply with law, and prevent misuse. You can delete individual items in the app or use “Empty Vault” in Settings to delete all stored notes, photos, and videos. Items already sent to the cloud are also removed as part of the in-app deletion process.</p>
+      <p>If deletion cannot be completed or you want related data, including the Firebase anonymous authentication identifier, deleted, contact the address below. Some information may remain temporarily in system backups or where retention is legally required.</p>
+
+      <h2>Security</h2>
+      <p>The app uses on-device encryption, encrypted communications, and Firebase authentication and access controls to help protect information. However, no device, internet transmission, or cloud storage system can be guaranteed completely secure. Keep a separate backup of important original files.</p>
+
+      <h2>Children's privacy</h2>
+      <p>The app is not directed primarily to children under 13. Children under 13 should use it only with a parent or guardian's consent and supervision.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>This policy may be updated to reflect changes in law or app functionality. The revised policy and updated date will be published on this page.</p>
+
+      <h2>Contact</h2>
+      <p>For questions about this policy or requests concerning your data, contact:</p>
+      <p class="note"><a href="mailto:syn.18ap@gmail.com">syn.18ap@gmail.com</a></p>
+    </article>
+  </main>
+
+  <footer><div class="footer-inner"><span>© 2026 Seiyo Nakajima</span><a href="./index.html"><span class="inline" data-lang="ja">紹介ページへ戻る</span><span class="inline" data-lang="en">Back to home</span></a></div></footer>
+  <script>
+    const root = document.documentElement;
+    const buttons = document.querySelectorAll("[data-set-lang]");
+    const saved = localStorage.getItem("secret-calculator-lang");
+    const browserLang = (navigator.language || "").toLowerCase().startsWith("ja") ? "ja" : "en";
+    function setLanguage(lang) {
+      root.dataset.activeLang = lang;
+      root.lang = lang;
+      localStorage.setItem("secret-calculator-lang", lang);
+      buttons.forEach((button) => button.setAttribute("aria-pressed", button.dataset.setLang === lang ? "true" : "false"));
+    }
+    buttons.forEach((button) => button.addEventListener("click", () => setLanguage(button.dataset.setLang)));
+    setLanguage(saved || browserLang);
+  </script>
+</body>
+</html>
